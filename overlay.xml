@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>                                                                                                     
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>crymson</name>
+		<description>An overlay by dcbaker with experimental ebuilds</description>
+		<homepage>http://github.com/sarnold/</homepage>
+		<owner>
+			<email>baker.dylan.c+github@gmail.com</email>
+		</owner>
+		<source type="git">git://github.com/dcbaker/crymson.git</source>
+	</repo>
+</repositories>
