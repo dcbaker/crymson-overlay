@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>baker.dylan.c+github@gmail.com</email>
+		<name>Dylan Baker</name>
+	</maintainer>
+	<longdescription lang="en">
+		Valve's Steam client and runtime system.
+	</longdescription>
+</pkgmetadata>

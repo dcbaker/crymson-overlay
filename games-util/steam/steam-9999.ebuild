@@ -1,4 +1,4 @@
-# Copyright 2013 Kenneth Graunke
+# Copyright 2013 Kenneth Graunke, 2014 Dylan Baker
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,10 +10,12 @@ SRC_URI="http://media.steampowered.com/client/installer/steam.deb"
 
 LICENSE="Steam"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="-* amd64 x86"
 
-RDEPEND="virtual/opengl virtual/udev"
-DEPEND="${RDEPEND}"
+RDEPEND="
+	virtual/opengl
+	virtual/udev
+	amd64? ( virtual/opengl[abi_x86_32] )"
 
 src_unpack() {
 	S=${PWD}
