@@ -15,6 +15,7 @@ KEYWORDS="-* amd64 x86"
 RDEPEND="
 	virtual/opengl
 	virtual/udev
+	media-libs/libtxc_dxtn[abi_x86_32]
 	amd64? ( virtual/opengl[abi_x86_32] )"
 
 src_unpack() {
