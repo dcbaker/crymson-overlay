@@ -17,6 +17,7 @@ RDEPEND="
 	virtual/udev
 	media-libs/libtxc_dxtn[abi_x86_32]
 	amd64? ( virtual/opengl[abi_x86_32] )"
+DEPEND="${RDEPEND}"
 
 src_unpack() {
 	S=${PWD}
