@@ -18,7 +18,7 @@ RDEPEND="
 	>=x11-libs/libSM-1.2.2-r1
 	>=x11-libs/libXext-1.3.3
 	>=media-libs/mesa-10.4
-	sys-libs/ncruses:5
+	sys-libs/ncurses:5
 	>=dev-libs/ocl-icd-2.1.3
 "
 
